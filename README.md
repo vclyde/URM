@@ -36,7 +36,7 @@ are assumed to have 0 as value. If the program requires two inputs, for example,
 2 registers contain the input. The output of the computation is always stored on the first 
 register, overwriting whatever is there.
 
-###### Example 1. f(x, y) = x + y
+##### Example 1. f(x, y) = x + y
 The program below computes the sum of two numbers. The inputs are two numbers found on the 
 first two registers. When the program terminates the first register contains the sum.
 1. J(1, 2, 5)
@@ -44,7 +44,7 @@ first two registers. When the program terminates the first register contains the
 3. S(2)
 4. J(1, 1, 1)
 
-###### Example 2. f(x) = {0 if x = 0, x - 1 if >= 1}
+##### Example 2. f(x) = {0 if x = 0, x - 1 if >= 1}
 The program subtracts 1 from the input (located in the first register). If the input is 0, it 
 simply ignores it.
 1. J(0, 1, 8)   // checks if input is 0
@@ -55,7 +55,7 @@ simply ignores it.
 6. J(1, 1, 3)   // go back to instruction 3
 7. T(2, 0)      // transfer actual result to proper register
 
-###### Construct URM for each of the following:
+##### Construct URM for each of the following:
 1. f(x, y) = {x if x < y, x - y if x >= y}
 2. f(x, y) = x mod y
 3. f(x, y) = gcd(x, y)
