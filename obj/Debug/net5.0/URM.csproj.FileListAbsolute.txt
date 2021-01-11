@@ -1,0 +1,16 @@
+D:\GitHub\URM\bin\Debug\net5.0\URM.exe
+D:\GitHub\URM\bin\Debug\net5.0\URM.deps.json
+D:\GitHub\URM\bin\Debug\net5.0\URM.runtimeconfig.json
+D:\GitHub\URM\bin\Debug\net5.0\URM.runtimeconfig.dev.json
+D:\GitHub\URM\bin\Debug\net5.0\URM.dll
+D:\GitHub\URM\bin\Debug\net5.0\ref\URM.dll
+D:\GitHub\URM\bin\Debug\net5.0\URM.pdb
+D:\GitHub\URM\obj\Debug\net5.0\URM.csprojAssemblyReference.cache
+D:\GitHub\URM\obj\Debug\net5.0\URM.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\URM\obj\Debug\net5.0\URM.AssemblyInfoInputs.cache
+D:\GitHub\URM\obj\Debug\net5.0\URM.AssemblyInfo.cs
+D:\GitHub\URM\obj\Debug\net5.0\URM.csproj.CoreCompileInputs.cache
+D:\GitHub\URM\obj\Debug\net5.0\URM.dll
+D:\GitHub\URM\obj\Debug\net5.0\ref\URM.dll
+D:\GitHub\URM\obj\Debug\net5.0\URM.pdb
+D:\GitHub\URM\obj\Debug\net5.0\URM.genruntimeconfig.cache
