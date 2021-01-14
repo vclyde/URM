@@ -8,12 +8,6 @@ namespace Vclyde.Urm
         static void Main(string[] args)
         {
             UnlimitedRegisterMachine urm = new UnlimitedRegisterMachine();
-            // string[] s = Regex.Split("J(04, 5, 7)", @"\D+");
-            // Console.WriteLine(s.Length);
-            // foreach(string v in s) {
-            //     Console.WriteLine(v);
-            // }
-            Console.WriteLine();
             Console.WriteLine("Welcome to Unlimited Register Machine!");
             Console.WriteLine("Enter Instructions here: ");
             String input;
@@ -35,6 +29,7 @@ namespace Vclyde.Urm
                     urm.Register[ctr++] = Convert.ToInt32(input);
                 }
             } while (!String.IsNullOrWhiteSpace(input));
+
             urm.Execute();
             // Console.WriteLine(urm.Instruction.Count + "/" + urm.Instruction.Capacity);
         }

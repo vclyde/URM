@@ -6,13 +6,13 @@ namespace Vclyde.Urm
 {
     public sealed class UnlimitedRegisterMachine
     {
-        public List<int> Register { get; } 
-        public List<string> Instruction { get; } 
+        public List<int> Register { get; }
+        public List<string> Instruction { get; }
         private int instructionCtr = 1; // Starts at 1
 
         public UnlimitedRegisterMachine()
         {
-            Register = new List<int>(new int[1000]);
+            Register = new List<int>(new int[1000]); // Initialize with default 0 values
             Instruction = new List<string>(20);
             Instruction.Insert(0, "");
         }
